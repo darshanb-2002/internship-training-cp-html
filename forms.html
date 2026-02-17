@@ -1,18 +1,60 @@
-<html lang="en">
+<!DOCTYPE html>
+<html>
 <head>
-    <meta name="author" content="Dennis">
-    <meta name="keywords" content="html,Basics of WebApp">
-    <meta name="description" content="My Website for Learning">
-    <title>Learn HTML | Campuspe</title>
+<title>Register Form</title>
 </head>
 
 <body>
-    <center>
-        <form>
-            <label for="name">Name</label>
-            <input id="name" type="text" name="name" placeholder="Enter your name">
-            <input type="submit" value="Submit">
-        </form>
-    </center>
+<center>
+
+<h2>Register to Campuspe</h2>
+
+<form method="post">
+
+Name <input type="text" name="name" placeholder="Enter your name"><br><br>
+
+Email <input type="email" name="email" placeholder="Enter your Email"><br><br>
+
+Phone <input type="text" name="phone" placeholder="Enter your phone number"><br><br>
+
+Password <input type="password" name="password" placeholder="Enter your Desired password"><br><br>
+
+Confirm Password <input type="password" name="confirm_password" placeholder="Confirm your password"><br><br>
+
+Choose Your Gender
+Male <input type="radio" name="gender" value="male">
+Female <input type="radio" name="gender" value="female"><br><br>
+
+Enter your hobbies <br>
+Signing <input type="checkbox" name="hobby" value="signing">
+Dancing <input type="checkbox" name="hobby" value="dancing">
+Reading Books <input type="checkbox" name="hobby" value="reading"><br><br>
+
+Select your Course
+<select>
+<option>Btech</option>
+<option>BCA</option>
+<option>BSc</option>
+</select><br><br>
+
+Subjects
+<select multiple>
+<option>Software Engineering</option>
+<option>Mathematics</option>
+<option>DBMS</option>
+<option>Data Structures</option>
+</select><br><br>
+
+<input type="color"><br><br>
+
+Date of Birth
+<input type="date"><br><br>
+
+<input type="reset">
+<input type="submit">
+
+</form>
+
+</center>
 </body>
 </html>
